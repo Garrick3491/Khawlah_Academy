@@ -1,6 +1,6 @@
 body
 {
-    background-color: #fff;
+    background-color: #f7f7f7;
     color: #000;
     font-family: 'Open Sans', sans-serif;
 }
@@ -48,13 +48,95 @@ ul.no-point
 {
     padding: 75px 0;
 }
+
+.no_padding
+{
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5
+{
+  font-family: 'Suez One', serif;
+  letter-spacing: .1em;
+}
+
+
+.page-logo
+{
+  width: 200px;
+  border: solid 1px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*PAGE ONE*/
+
+#p1
+{
+  padding: 50px 0 0;
+  border: solid;
+  height: 100vh;
+}
+
+.p1-title
+{
+  font-size: 5em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+}
+
+.large-logo
+{
+  width:75%;
+  margin-left:12.5%;
+}
+
+
+/*PAGE TWO CSS*/
+
+#p2
+{
+  border: solid;
+  height: 100vh;
+  padding: 50px 0 0;
+}
+
+.p2-title
+{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+}
+
+.page-header-box
+{
+  text-align: left;
+}
+
+.defence-txt
+{
+  font-size: 1.25em;
+  text-align: center;
+}
+
+/*PAGE THREE CSS*/
+
+#p3{
+  padding: 50px 0 0;
+  border: solid;
+  height: 100vh;
+}
+
 /* contact CSS */
 #page_eight
 {
     width: 100%;
     float: left;
 }
-
 
 .pipe
 {
