@@ -1,8 +1,13 @@
 body
 {
-    background-color: #fff;
+    background-color: #f7f7f7;
     color: #000;
     font-family: 'Open Sans', sans-serif;
+}
+
+.main-content
+{
+
 }
 a{
   color: inherit;
@@ -29,6 +34,12 @@ ul.no-point
 {
     list-style: none;
 }
+
+.row
+{
+  margin: 0;
+}
+
 .text
 {
     padding: 0.4em;
@@ -48,13 +59,113 @@ ul.no-point
 {
     padding: 75px 0;
 }
+
+h1, h2, h3, h4, h5
+{
+  font-family: 'Suez One', serif;
+  letter-spacing: .1em;
+  margin: 0;
+  margin-bottom: .5em;
+}
+
+
+.page-logo
+{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*PAGE ONE*/
+
+#p1
+{
+  padding: 50px 0 0;
+  height: 100vh;
+}
+
+svg .text { 
+    font-family: 'Suez One', serif;
+    font-weight:bold; 
+    font-style:normal; 
+}
+
+.p1-title
+{
+  font-size: 5em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+}
+
+.large-logo
+{
+  width:75%;
+  margin-left:12.5%;
+}
+
+
+/*PAGE TWO CSS*/
+
+#p2
+{
+  height: 100vh;
+  padding: 50px 0 0;
+}
+
+.p2-title
+{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+}
+
+.page-header-box
+{
+  text-align: left;
+}
+
+.defence-txt
+{
+  font-size: 1.25em;
+  text-align: center;
+}
+
+/*PAGE THREE CSS*/
+
+#p3{
+  padding: 50px 0 0;
+  height: 100vh;
+}
+
+.p3-title
+{
+  font-size: 3em;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+}
+
+
+.instructor-prof-img
+{
+  
+}
+
+.prof-headings
+{
+  margin-left: .5em;
+}
+
 /* contact CSS */
 #page_eight
 {
     width: 100%;
     float: left;
 }
-
 
 .pipe
 {
