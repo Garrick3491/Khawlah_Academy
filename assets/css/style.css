@@ -230,3 +230,22 @@ svg .text {
     font-size: 1.25em;
   text-align: center;
 }
+#p7
+{
+  height: 50vh;
+  padding: 50px 0 0;
+}
+
+.p7-title
+{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+}
+
+.p7-text
+{
+    font-size: 1.25em;
+  text-align: center;
+}
