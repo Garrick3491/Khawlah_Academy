@@ -140,11 +140,15 @@ svg .text {
   padding: 50px 0 0;
   height: 100vh;
 }
-
+.p3-text
+{
+    font-size: 1.25em;
+  text-align: center;
+}
 .p3-title
 {
   font-size: 3em;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 37.5px;
 }
@@ -173,4 +177,61 @@ svg .text {
     font-size: 3em;
     color: #000;
     opacity: .2;
+}
+#p4
+{
+  height: 100vh;
+  padding: 50px 0 0;
+}
+
+.p4-title
+{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+}
+
+.p4-text
+{
+    font-size: 1.25em;
+  text-align: center;
+}
+#p5
+{
+  height: 50vh;
+  padding: 50px 0 0;
+}
+
+.p5-title
+{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+}
+
+.p5-text
+{
+    font-size: 1.25em;
+  text-align: center;
+}
+#p6
+{
+  height: 50vh;
+  padding: 50px 0 0;
+}
+
+.p6-title
+{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+}
+
+.p6-text
+{
+    font-size: 1.25em;
+  text-align: center;
 }
