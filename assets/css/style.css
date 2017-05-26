@@ -5,6 +5,11 @@ body
     font-family: 'Open Sans', sans-serif;
 }
 
+.no_padding
+{
+  padding:0;
+}
+
 .main-content
 {
 
@@ -32,7 +37,10 @@ a:hover{
 }
 ul.no-point
 {
-    list-style: none;
+  list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
 }
 
 .row
@@ -66,6 +74,7 @@ h1, h2, h3, h4, h5
   letter-spacing: .1em;
   margin: 0;
   margin-bottom: .5em;
+  color: #333;
 }
 
 
@@ -113,6 +122,12 @@ svg .text {
 {
   height: 100vh;
   padding: 50px 0 0;
+  background: #fff;
+}
+
+.p2-content
+{
+  transform: translate(0, 50%)
 }
 
 .p2-title
@@ -138,18 +153,18 @@ svg .text {
 
 #p3{
   padding: 50px 0 0;
-  height: 100vh;
 }
+
+
 .p3-text
 {
     font-size: 1.25em;
-  text-align: center;
 }
 
 .p3-title
 {
   font-size: 3em;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   margin-bottom: 37.5px;
 }
@@ -157,6 +172,61 @@ svg .text {
 .prof-headings
 {
   margin-left: .5em;
+}
+
+.instructor-prof-img{
+  border-radius: 1em;
+  border: solid #fff 5px;
+}
+/*PAGE 4 CSS*/
+#p4
+{
+  padding: 50px 0 0;
+}
+
+.p4-title
+{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+  color: #f7f7f7;
+}
+
+.p4-text
+{
+  font-size: 1.25em;
+}
+
+
+.p4-cards
+{
+  background: #333;
+  color: #f7f7f7;
+  padding: 2.5em;
+  letter-spacing: .1em;
+  font-size: 1.1em;
+}
+
+/*PAGE 5 CSS*/
+#p5
+{
+  padding: 50px 0 0;
+  background: #fff;
+}
+
+.p5-title
+{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37.5px;
+}
+
+.p5-text
+{
+    font-size: 1.25em;
+  text-align: center;
 }
 
 /* contact CSS */
@@ -173,44 +243,8 @@ svg .text {
     color: #000;
     opacity: .2;
 }
-#p4
-{
-  height: 100vh;
-  padding: 50px 0 0;
-}
 
-.p4-title
-{
-  font-size: 3em;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 37.5px;
-}
 
-.p4-text
-{
-    font-size: 1.25em;
-  text-align: center;
-}
-#p5
-{
-  height: 100vh;
-  padding: 50px 0 0;
-}
-
-.p5-title
-{
-  font-size: 3em;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 37.5px;
-}
-
-.p5-text
-{
-    font-size: 1.25em;
-  text-align: center;
-}
 #p6
 {
   height: 100vh;
