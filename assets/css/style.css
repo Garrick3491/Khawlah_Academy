@@ -10,9 +10,9 @@ body
   padding:0;
 }
 
-.main-content
+.bold
 {
-
+  font-weight: bold;
 }
 a{
   color: inherit;
@@ -35,7 +35,7 @@ a:hover{
   text-decoration: none;
   color: inherit;
 }
-ul.no-point
+ul
 {
   list-style-type: none;
         list-style-position:inside;
@@ -217,7 +217,6 @@ svg text {
 .p5-title
 {
   font-size: 3em;
-  text-align: center;
   text-transform: uppercase;
   margin-bottom: 37.5px;
 }
@@ -225,7 +224,6 @@ svg text {
 .p5-text
 {
     font-size: 1.25em;
-  text-align: center;
 }
 
 /* contact CSS */
@@ -246,27 +244,30 @@ svg text {
 
 #p6
 {
-  height: 50vh;
   padding: 50px 0 0;
 }
 
 .p6-title
 {
   font-size: 3em;
-  text-align: center;
   text-transform: uppercase;
   margin-bottom: 37.5px;
+  text-align: center;
 }
 
 .p6-text
 {
-    font-size: 1.25em;
+  font-size: 1.25em;
   text-align: center;
+  word-spacing: .1em;
+  line-height: 1.5em;
+  opacity: .9;
 }
+
 #p7
 {
-  height: 50vh;
   padding: 50px 0 0;
+  background: #fff;
 }
 
 .p7-title
@@ -282,3 +283,50 @@ svg text {
     font-size: 1.25em;
   text-align: center;
 }
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      .p3-title{
+          text-align: center;
+        }
+
+        .resp-center-list
+        {
+          text-align: center;
+        }
+
+        .p5-title{
+          text-align: center;
+          margin: .5em;
+        }
+
+        .p5-text{
+          text-align: center;
+        }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .p2-content{
+          transform: translate(0);
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
