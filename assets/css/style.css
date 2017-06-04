@@ -15,7 +15,10 @@ nav
     background: #f7f7f7;
     border: 0;
 }
-
+.icon-bar
+{
+    background-color: #333;
+}
 .navbar-inverse .navbar-toggle
 {
     border: 0;
