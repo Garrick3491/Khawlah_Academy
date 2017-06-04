@@ -11,7 +11,7 @@ nav
 }
 .navbar-toggle:hover
 {
-    background: #fff;
+    background: #fff !important;;
 }
 .icon-bar
 {
