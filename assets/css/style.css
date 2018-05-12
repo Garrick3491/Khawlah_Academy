@@ -112,6 +112,16 @@ h1, h2, h3, h4, h5
   color: #333;
 }
 
+.carousel
+{
+    height: 500px !important;
+    width: 862px !important;
+}
+.carousel-two
+{
+    height: 650px !important;
+    width: 862px;
+}
 
 .page-logo
 {
@@ -198,7 +208,7 @@ svg text {
 .p3-title
 {
   font-size: 3em;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 37.5px;
 }
@@ -211,6 +221,8 @@ svg text {
 .instructor-prof-img{
   border-radius: 1em;
   border: solid #fff 5px;
+    width: 250px;
+    height: 250px;
 }
 /*PAGE 4 CSS*/
 #p4
